@@ -1,0 +1,49 @@
+
+<div class="container">
+ 
+  <%= form_for @user do|f| %>
+      <h1 class="white">SIGN UP</h1>
+      <div class="form-group row">
+        <label for="smFormGroupInput" class="col-sm-4 col-form-label col-form-label-sm">User Name</label>
+        <div class="col-sm-8">
+          <%= f.text_field :username, class: "form-control form-control-sm", id: "smFormGroupInput", placeholder: "User Name" %>
+        </div>
+      </div>
+      <br/>
+      <div class="form-group row">
+        <label for="smFormGroupInput" class="col-sm-4 col-form-label col-form-label-sm">Email Id</label>
+        <div class="col-sm-8">
+          <%= f.text_field :email, class: "form-control form-control-sm", id: "smFormGroupInput", placeholder: "Email Id" %>
+        </div>
+      </div>
+      <br/>
+      <div class="form-group row">
+        <label for="smFormGroupInput" class="col-sm-4 col-form-label col-form-label-sm">Mobile No.</label>
+        <div class="col-sm-8">
+          <%= f.text_field :phone, class: "form-control form-control-sm", id: "smFormGroupInput", placeholder: "Mobile No" %>
+        </div>
+      </div>
+      <br/>
+      <div class="form-group row">
+        <label for="smFormGroupInput" class="col-sm-4 col-form-label col-form-label-sm">Create Password</label>
+        <div class="col-sm-8">
+          <%= f.password_field :password, class: "form-control form-control-sm", id: "smFormGroupInput", placeholder: "Create Password" %>
+        </div>
+      </div>
+      <br/>
+      <div class="form-group row">
+        <label for="smFormGroupInput" class="col-sm-4 col-form-label col-form-label-sm">Confirm Password</label>
+        <div class="col-sm-8">
+          <%= f.password_field :password_confirmation, class: "form-control form-control-sm", id: "smFormGroupInput", placeholder: "Confirm Password" %>
+        </div>
+      </div>
+     
+      <div class="form-group row">
+        <div class="col-sm-12">
+          <%= f.submit "Sign Up", class: "btn btn-appoint" %> 
+        </div>
+      </div>
+
+  <% end %> <!-- /form -->
+ 
+</div>
