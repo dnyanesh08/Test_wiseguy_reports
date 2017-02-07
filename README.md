@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Test_wiseguy_reports
+>>>>>>> baabb5436aa16cc6658a9d5fcf8ece00a5c41ef8
